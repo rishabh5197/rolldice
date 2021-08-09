@@ -1,0 +1,49 @@
+body{
+    background-color:dimgray;
+    color:white;
+    text-align:center;
+    margin:150px;
+    font-size:25px;
+    /* padding:10px; */
+}
+.playersinput{
+    height:25px;
+    width:100px;
+    border:3px solid black;
+    border-radius:25px;
+    font-size: 25px;
+    text-align:center;
+
+}
+.playersinput:hover{
+    height:30px;
+    width:110px;
+    font-size:1.2em;
+    color:white;
+    background:royalblue;
+}
+.dicebutton{
+    height:100px;
+    width:100px;
+    border:3px solid black;
+    border-radius:25px;
+    background-color:rosybrown;
+}
+button{
+    background-color:dimgray;
+    border:3px solid dimgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding: 25px; */
+}
+.dicebutton:active{
+    height: 110px;
+    width: 110px;
+    background-color:red;
+}
+.result{
+    font-weight: bold;
+}
+.result:hover{
+    font-weight: bold;
+    font-size: 1.2em;
+}
