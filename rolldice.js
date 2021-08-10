@@ -23,12 +23,12 @@ function roll()
           }
           else
           {
-              if (player1 > 30)
+              if (player1 >= 30)
               {
                 
                 document.getElementById("result").innerHTML ="<b>1<sup>st</sup> player won the match</b>";
               }
-              else if (player2 > 30)
+              else if (player2 >= 30)
               {
                 document.getElementById("result").innerHTML ="<b>2<sup>nd</sup> player won the match</b>";
               }
