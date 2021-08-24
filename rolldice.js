@@ -7,14 +7,23 @@ document.getElementById("player1").value = player1;
 document.getElementById("player2").value = player2;
 // console.log("Initial Values", player1, player2)
 
+var player_on_dice = "player2" 
 
 function roll()
 {
         //   console.log(player1, player2); 
           if ((player1 < 30) && (player2 < 30))
           {
-              player1 = player1 + Math.floor(Math.random() * 6) + 1;
+            if (player_on_dice === "player1") {
               player2 = player2 + Math.floor(Math.random() * 6) + 1;
+              player_on_dice= "player2"
+            }
+            else {
+              player1 = player1 + Math.floor(Math.random() * 6) + 1;
+              player_on_dice="player1"
+            }
+              
+              
             //   console.log(player1, player2)
             //   console.log(typeof(player1), typeof(player2))
             //   console.log(player1, player2);
